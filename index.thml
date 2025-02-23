@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ร้านค้าออนไลน์ จำหน่ายเสื้อผ้า กระเป๋า รองเท้า และเครื่องประดับ คุณภาพดี ราคาถูก">
+    <meta name="keywords" content="เสื้อผ้า, กระเป๋า, รองเท้า, เครื่องประดับ, ร้านค้าออนไลน์, ช้อปปิ้งออนไลน์">
+    <meta name="author" content="ชื่อร้านของคุณ">
+    <title>ร้านค้าออนไลน์ - เสื้อผ้า กระเป๋า รองเท้า เครื่องประดับ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+        }
+        .navbar a:hover {
+            color: #ddd;
+        }
+        .banner {
+            width: 100%;
+            height: 300px;
+            background: url('https://via.placeholder.com/1200x300?text=ป้ายร้านใหญ่') no-repeat center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner h1 {
+            font-size: 48px;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .category-card {
+            background-color: #f9f9f9;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .category-card:hover {
+            transform: scale(1.05);
+        }
+        .category-card img {
+            max-width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .category-card h3 {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#">หน้าแรก</a>
+        <a href="#">เสื้อผ้า</a>
+        <a href="#">กระเป๋า</a>
+        <a href="#">รองเท้า</a>
+        <a href="#">เครื่องประดับ</a>
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>ยินดีต้อนรับสู่ร้านค้าออนไลน์</h1>
+    </div>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2 style="width: 100%; text-align: center; margin-bottom: 20px;">หมวดหมู่สินค้า</h2>
+        <div class="category-card">
+            <img src="https://via.placeholder.com/250x150?text=เสื้อผ้า" alt="เสื้อผ้าคุณภาพดี">
+            <h3>เสื้อผ้า</h3>
+            <p>เสื้อผ้าแฟชั่นทันสมัย ราคาไม่แพง</p>
+        </div>
+        <div class="category-card">
+            <img src="https://via.placeholder.com/250x150?text=กระเป๋า" alt="กระเป๋าสวยๆ">
+            <h3>กระเป๋า</h3>
+            <p>กระเป๋าคุณภาพ ดีไซน์เก๋</p>
+        </div>
+        <div class="category-card">
+            <img src="https://via.placeholder.com/250x150?text=รองเท้า" alt="รองเท้าแฟชั่น">
+            <h3>รองเท้า</h3>
+            <p>รองเท้าสบาย ใส่ได้ทุกโอกาส</p>
+        </div>
+        <div class="category-card">
+            <img src="https://via.placeholder.com/250x150?text=เครื่องประดับ" alt="เครื่องประดับราคาถูก">
+            <h3>เครื่องประดับ</h3>
+            <p>เครื่องประดับสวยงาม เสริมลุคทุกวัน</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 ร้านค้าออนไลน์. สงวนลิขสิทธิ์.</p>
+    </footer>
+</body>
+</html>
